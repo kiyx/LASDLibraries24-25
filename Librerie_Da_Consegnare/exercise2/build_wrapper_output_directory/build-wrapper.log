@@ -1,0 +1,7 @@
+Tue Nov 04 16:56:33 2025: build-wrapper, version 6.73 (win-x86-64)
+Tue Nov 04 16:56:33 2025: isWow64: 0
+Tue Nov 04 16:56:33 2025: windows version: 10.0, service pack: 0.0, build number: 26200, product type: 1
+Tue Nov 04 16:56:33 2025: current directory: C:\Users\espos\Desktop\Università\Progetti\LASD\LASDLibraries24-25\Librerie_Da_Consegnare\exercise2
+Tue Nov 04 16:56:33 2025: cwd: <C:\Users\espos\Desktop\Università\Progetti\LASD\LASDLibraries24-25\Librerie_Da_Consegnare\exercise2>
+Tue Nov 04 16:56:33 2025: out-dir absolute path: <C:\Users\espos\Desktop\Università\Progetti\LASD\LASDLibraries24-25\Librerie_Da_Consegnare\exercise2\build_wrapper_output_directory>
+Tue Nov 04 16:56:33 2025: command line received: <MSBuild.exe /t:Rebuild /nodeReuse:False>

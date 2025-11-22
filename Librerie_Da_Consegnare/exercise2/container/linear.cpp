@@ -1,3 +1,4 @@
+#include "linear.hpp"
 
 namespace lasd {
 

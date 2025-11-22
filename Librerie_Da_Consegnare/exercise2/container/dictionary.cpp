@@ -1,3 +1,4 @@
+#include "dictionary.hpp"
 
 namespace lasd {
 

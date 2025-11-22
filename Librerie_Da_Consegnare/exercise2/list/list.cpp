@@ -1,4 +1,5 @@
 //#include <cmath>
+#include "list.hpp"
 
 namespace lasd {
 
@@ -38,7 +39,7 @@ List<Data>::Node::~Node()
 template <typename Data>
 bool List<Data>::Node::operator==(const Node &to_cmp) const noexcept
 {
-    return (elem == to_cmp.elem) && ((next == nullptr && to_cmp.next == nullptr)|| ((next != nullptr && to_cmp.next != nullptr) && (*next == *to_cmp.next)));
+    return (elem == to_cmp.elem) && ((next == nullptr && to_cmp.next == nullptr) || ((next != nullptr && to_cmp.next != nullptr) && (*next == *to_cmp.next)));
 }
 
 template <typename Data>

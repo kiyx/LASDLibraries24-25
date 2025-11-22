@@ -1,3 +1,4 @@
+#include "setlst.hpp"
 
 namespace lasd {
 
@@ -162,9 +163,10 @@ Data SetLst<Data>::PredecessorNRemove(const Data &key) // Override OrderedDictio
     ulong length = size;
 
     Node * reminder = head;
+    Node * pre_reminder = nullptr; 
     Node * pred = nullptr;
     Node * pre_pred = nullptr;
-    Node * pre_reminder = nullptr; 
+
 
     while(length > 0)
     {
@@ -299,10 +301,10 @@ Data SetLst<Data>::SuccessorNRemove(const Data &key) // Override OrderedDictiona
     ulong length = size;
 
     Node * reminder = head;
+    Node * pre_reminder = nullptr; 
     Node * succ = nullptr;
     Node * pre_succ = nullptr;
-    Node * pre_reminder = nullptr; 
-
+    
     while(length > 0)
     {
        ulong mid = length/2;

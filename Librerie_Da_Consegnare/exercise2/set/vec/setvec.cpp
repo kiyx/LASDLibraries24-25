@@ -1,3 +1,4 @@
+#include "setvec.hpp"
 
 namespace lasd {
 
@@ -415,7 +416,7 @@ void SetVec<Data>::LeftShift(ulong index, ulong to_shift)
 {
     for(ulong i = 0 ; i < to_shift; i++)
         Elements[(index + i + head + capacity - 1) % capacity] = 
-        Elements[(index + i + head + capacity) % capacity];
+        Elements[(index + i + head) % capacity];
 }
 
 template <typename Data>
@@ -568,7 +569,7 @@ ulong SetVec<Data>::BSearchPred(const Data &key) const
         } 
         else
         {
-            if (q == 0)
+            if(q == 0)
                 break;
 
             j = q - 1;
